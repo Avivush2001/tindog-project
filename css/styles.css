@@ -1,0 +1,57 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 4em;
+  line-height: 1.5;
+  color: white;
+}
+.navbar {
+  padding-bottom: 5%;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+.navbar-brand {
+  font-size: 3em;
+}
+.btn {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-right: 2%;
+}
+.nav-item {
+padding: 0 18px 0 0;
+font-size: 1.5em;
+}
+.f-icons {
+  color: #ef8172;
+  font-size: 4em;
+  padding: 10px;
+}
+.f-icons:hover {
+  color: #ff4c68;
+}
+.h-features {
+  font-size: 1.5em;
+  padding: 10px;
+}
+.p-features {
+  color: #8f8f8f;
+  padding: 10px;
+}
+#title {
+  background-color: #ff4c68;
+}
+#title-bot {
+
+}
+#iphone6 {
+  transform: rotate(25deg);
+  padding: 20%;
+}
+#features {
+  text-align: center;
+}
