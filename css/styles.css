@@ -1,3 +1,4 @@
+/* tags */
 body {
   font-family: 'Ubuntu', sans-serif;
 }
@@ -6,8 +7,15 @@ h1 {
   font-weight: 900;
   font-size: 4em;
   line-height: 1.5;
-  color: white;
+  
 }
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+/* classes */
 .navbar {
   padding-bottom: 5%;
 }
@@ -42,16 +50,49 @@ font-size: 1.5em;
   color: #8f8f8f;
   padding: 10px;
 }
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.tes-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* ID'S */
 #title {
   background-color: #ff4c68;
-}
-#title-bot {
-
+  color: white;
 }
 #iphone6 {
-  transform: rotate(25deg);
   padding: 20%;
+  transform: rotate(25deg);
 }
 #features {
   text-align: center;
+}
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#pricing-column-1 {
+  padding: 3% 2% 3% 0;
+}
+#pricing-column-2 {
+  padding: 3% 2%;
+}
+#pricing-column-3 {
+  padding: 3% 0 3% 2%;
 }
