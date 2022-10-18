@@ -15,6 +15,12 @@ h2 {
   font-weight: 900;
   line-height: 1.5;
 }
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
 /* classes */
 .navbar {
   padding-bottom: 5%;
@@ -67,13 +73,36 @@ font-size: 1.5em;
 #title {
   background-color: #ff4c68;
   color: white;
+  position: static;
+  padding-bottom: 120px;
+}
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+}
+#footer {
+  text-align: center;
 }
 #iphone6 {
-  padding: 20%;
   transform: rotate(25deg);
+  position: absolute;
+  bottom: -50px;
+}
+@media (max-width: 1028px ) {
+  #title {
+    text-align: center;
+  }
+  #iphone6{
+    transform: rotate(0);
+    padding: 20%;
+    position: static;
+  }
 }
 #features {
+  background-color: white;
   text-align: center;
+  position: relative;
 }
 #testimonials {
   text-align: center;
